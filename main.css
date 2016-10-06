@@ -60,85 +60,83 @@ video#bgvid {
     padding-top: 15px;
 }
 
+.form input {
+    width: 65%;
+    font-weight: bold;
+}
+
 
 /* Large desktop */
-@media (min-width: 1200px) { 
-    
-}
- 
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { 
-    
-}
- 
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) { 
-    
-}
- 
-/* Landscape phones and down */
-@media (max-width: 480px) { 
+
+@media (min-width: 766px) {
     video#bgvid {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url() no-repeat;
-    background-size: cover;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url() no-repeat;
+        background-size: cover;
+    }
+    .overlay {
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: -10;
+        background: black;
+        opacity: 0.7;
+    }
+    .main-container {
+        width: 85vw;
+    }
+    .top-half {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10%;
+    }
+    .hook {
+        width: 65%;
+        padding-top: 15px;
+    }
+    .cta {
+        width: 85%;
+        padding-top: 15px;
+    }
+    .benefits {
+        width: 85%;
+        padding-top: 20%;
+    }
+    .fill {
+        width: 65%;
+    }
+    .form-container {
+        text-align: center;
+    }
+    .form {
+        text-align: center;
+        padding-top: 40px;
+    }
+    .form input {
+        width: 350px;
+        font-weight: bold;
+    }
 }
 
-.overlay {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -10;
-    background: black;
-    opacity: 0.7;
-}
 
-.main-container {
-    width: 85vw;
-    margin: auto;
-}
+/* Portrait tablet to landscape and desktop */
 
-.top-half {}
+@media (min-width: 768px) and (max-width: 979px) {}
 
-.hook {
-    width: 65%;
-    margin: auto;
-    padding-top: 15px;
-}
 
-.cta {
-    width: 85%;
-    margin: auto;
-    padding-top: 15px;
-}
+/* Landscape phone to portrait tablet */
 
-.benefits {
-    width: 85%;
-    margin: auto;
-    padding-top: 15px;
-}
-
-.fill {
-    width: 65%;
-    margin: auto;
-    padding-top: 25px;
-}
-
-.form {
-    text-align: center;
-    padding-top: 15px;
-}
-}
+@media (max-width: 767px) {}
