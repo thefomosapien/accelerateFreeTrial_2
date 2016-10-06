@@ -1,0 +1,144 @@
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url() no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+    background: black;
+    opacity: 0.7;
+}
+
+.main-container {
+    width: 85vw;
+    margin: auto;
+}
+
+.hook {
+    width: 65%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.cta {
+    width: 85%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.benefits {
+    width: 85%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.fill {
+    width: 65%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.form {
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+    
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+    
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url() no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+    background: black;
+    opacity: 0.7;
+}
+
+.main-container {
+    width: 85vw;
+    margin: auto;
+}
+
+.top-half {}
+
+.hook {
+    width: 65%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.cta {
+    width: 85%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.benefits {
+    width: 85%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.fill {
+    width: 65%;
+    margin: auto;
+    padding-top: 25px;
+}
+
+.form {
+    text-align: center;
+    padding-top: 15px;
+}
+}
