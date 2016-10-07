@@ -38,7 +38,7 @@ video#bgvid {
 }
 
 .cta {
-    width: 85%;
+    width: 75%;
     margin: auto;
     padding-top: 15px;
 }
@@ -50,7 +50,7 @@ video#bgvid {
 }
 
 .fill {
-    width: 65%;
+    width: 45%;
     margin: auto;
     padding-top: 25px;
 }
@@ -63,6 +63,15 @@ video#bgvid {
 .form input {
     width: 65%;
     font-weight: bold;
+}
+
+button {
+    background: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 
