@@ -55,6 +55,10 @@ video#bgvid {
     padding-top: 25px;
 }
 
+.instruct {
+    color: white;
+}
+
 .form {
     text-align: center;
     padding-top: 15px;
